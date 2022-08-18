@@ -100,3 +100,10 @@ img{
     right:20rem;
     height: 35.9375rem;
 }   
+
+@media screen and (max-width:640px;)
+{
+    body{
+        text-align: center;
+    }
+}
