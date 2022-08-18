@@ -102,7 +102,7 @@ img{
     height: 35.9375rem;
 }   
 
-@media screen and (max-width:640px) 
+@media screen and (max-width:720px) 
 {
     body{
         background-color: hsl(210, 46%, 95%);
