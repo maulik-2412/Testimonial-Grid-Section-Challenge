@@ -3,6 +3,7 @@ body{
     font-size: 0.8125rem;
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
+
 .daniel{
     background-color: hsl(263, 55%, 52%);
     background-image:url(images/bg-pattern-quotation.svg);
@@ -12,7 +13,7 @@ body{
     border-radius: 2%;
     min-height: 100px;
     overflow: hidden;
-    display: inline-block;
+    display: block;
     position:absolute;
     top:6.25rem;
     left:9.375rem;
@@ -101,9 +102,104 @@ img{
     height: 35.9375rem;
 }   
 
-@media screen and (max-width:640px )
+@media screen and (max-width:640px) 
 {
     body{
+        background-color: hsl(210, 46%, 95%);
+        font-size: 0.8125rem;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        
+    }
+    
+    .daniel{
+        background-color: hsl(263, 55%, 52%);
+        background-image:url(images/bg-pattern-quotation.svg);
+        background-repeat: no-repeat;
+        background-position-x:22rem;
+        width: 16rem;
+        border-radius: 2%;
+        min-height: 100px;
+        overflow: hidden;
+        display: block;
+        margin: 2rem auto;    
+    }
+    img{
+        float:left;
+        border-radius: 100%;
+        border-color: hsl(0, 0%, 81%);
+        border-width: 0.1875rem;
+        margin: 0.3125rem 1.25rem 1.25rem 1.25rem;
+        border-style: solid;
+        height: 1.875rem;
+        width: 1.875rem;
+        
+    
+        
+    }
+    .name-box{
+        padding-top: 0.3125rem;
+    }
+    .name{
+        margin-bottom: 0.0625rem;
+        font-size: 0.8124rem;
+        color: hsl(0, 0%, 81%);
+    }
+    .verified{
+        margin-top: 0.0625rem;
+        opacity: 50%;
+        color: hsl(0, 0%, 81%);
+    }
+    .head{
+        font-size: 1.25rem;
+        color: hsl(0, 0%, 100%);
+        padding: 0.5rem 1.5625rem 0.1875rem 1.5625rem;
+       
+    }
+    .body{
+        color:hsl(0, 0%, 100%);
+        opacity: 70%;
+        padding: 0.4375rem 1.5625rem 1.125rem 1.5625rem;    
+    }
+    .jonathan{
+        background-color: hsl(217, 19%, 35%);
+        min-height: 100px;
+        overflow: hidden;
+        border-radius: 2%;
+        display:block;
+        width: 16rem;
+        margin: 2rem auto; 
+    } 
+    .jeanette{
+       background-color: hsl(0, 0%, 100%);
+       min-height: 100px;
+       overflow: hidden;
+       border-radius: 2%;
+       display:block;
+       width: 16rem;
+       margin: 2rem auto; 
+    } 
+    .patrick{
+        background-color:  hsl(219, 29%, 14%);
+        min-height: 100px;
+       overflow: hidden;
+       border-radius: 2%;
+       display:block;
+       width: 16rem;
+       margin: 2rem auto; 
+    }
+    .kira{
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 2%;
+        display:block;
+        width: 16rem;
+        margin: 2rem auto; 
+       
+    }   
+    
+    .ack{
+        
         text-align: center;
     }
+    
 }
+
