@@ -101,7 +101,7 @@ img{
     height: 35.9375rem;
 }   
 
-@media screen and (max-width:640px;)
+@media screen and (max-width:640px )
 {
     body{
         text-align: center;
