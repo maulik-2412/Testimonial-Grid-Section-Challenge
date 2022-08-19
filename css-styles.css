@@ -13,7 +13,7 @@ body{
     border-radius: 2%;
     min-height: 100px;
     overflow: hidden;
-    display: block;
+    display: inline-block;
     position:absolute;
     top:6.25rem;
     left:9.375rem;
@@ -101,14 +101,19 @@ img{
     right:20rem;
     height: 35.9375rem;
 }   
+.ack{
+    margin-left:50%;
+    display: inline-block;
+    text-align: center;
 
-@media screen and (max-width:720px) and (-webkit-min-device-pixel-ratio:2)
+}
+
+@media (max-width:720px) 
 {
     body{
         background-color: hsl(210, 46%, 95%);
         font-size: 0.8125rem;
         font-family: 'Barlow Semi Condensed', sans-serif;
-        
     }
     
     .daniel{
@@ -116,12 +121,16 @@ img{
         background-image:url(images/bg-pattern-quotation.svg);
         background-repeat: no-repeat;
         background-position-x:22rem;
-        width: 16rem;
+        width: 19.125rem;
         border-radius: 2%;
         min-height: 100px;
         overflow: hidden;
         display: block;
-        margin: 2rem auto;    
+        position:absolute;
+        top:6.25rem;
+        left:27%;
+        
+        
     }
     img{
         float:left;
@@ -165,41 +174,47 @@ img{
         min-height: 100px;
         overflow: hidden;
         border-radius: 2%;
-        display:block;
-        width: 16rem;
-        margin: 2rem auto; 
-    } 
+        display: block;
+        width: 19.125rem;
+        position:absolute;
+        top:35rem;
+        left:27%;
+        
+    }
     .jeanette{
        background-color: hsl(0, 0%, 100%);
        min-height: 100px;
        overflow: hidden;
        border-radius: 2%;
-       display:block;
-       width: 16rem;
-       margin: 2rem auto; 
-    } 
+       display: block;
+       width: 19.125rem;
+       position: absolute;
+       top:52rem;
+       left:27%;
+    }
     .patrick{
         background-color:  hsl(219, 29%, 14%);
         min-height: 100px;
        overflow: hidden;
        border-radius: 2%;
-       display:block;
-       width: 16rem;
-       margin: 2rem auto; 
+       display: block;
+       width: 19.125rem;
+       position: absolute;
+       top:68rem;
+       left:27%;
     }
     .kira{
         background-color: hsl(0, 0%, 100%);
         border-radius: 2%;
-        display:block;
-        width: 16rem;
-        margin: 2rem auto; 
-       
-    }   
-    
-    .ack{
+        display:inline-block;
+        width: 19.125rem;
+        display: block;
+        top:93rem;
+        right:20rem;
+        left:27%;
+        height: 28.9375rem;
         
-        text-align: center;
-    }
+    }   
     
 }
 
