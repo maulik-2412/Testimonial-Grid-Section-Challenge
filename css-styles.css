@@ -110,7 +110,7 @@ img{
 
 }
 
-@media (max-width:720px) 
+@media (max-width:1080px) 
 {
     body{
         background-color: hsl(210, 46%, 95%);
@@ -203,7 +203,7 @@ img{
        width: 19.125rem;
        position: absolute;
        top:68rem;
-       left:27%;
+       left:50%;
     }
     .kira{
         background-color: hsl(0, 0%, 100%);
@@ -215,6 +215,7 @@ img{
         right:20rem;
         left:27%;
         height: 28.9375rem;
+        
         
     } 
     .ack{
