@@ -131,7 +131,7 @@ img{
         position:absolute;
         top:6.25rem;
         left:27%;
-        
+        margin:auto;
         
     }
     img{
@@ -181,6 +181,7 @@ img{
         position:absolute;
         top:35rem;
         left:27%;
+        margin:auto;
         
     }
     .jeanette{
@@ -193,6 +194,7 @@ img{
        position: absolute;
        top:52rem;
        left:27%;
+       margin:auto;
     }
     .patrick{
         background-color:  hsl(219, 29%, 14%);
@@ -203,7 +205,8 @@ img{
        width: 19.125rem;
        position: absolute;
        top:68rem;
-       left:50%;
+       left:27%;
+       margin:auto;
     }
     .kira{
         background-color: hsl(0, 0%, 100%);
@@ -215,7 +218,7 @@ img{
         right:20rem;
         left:27%;
         height: 28.9375rem;
-        
+        margin:auto;
         
     } 
     .ack{
