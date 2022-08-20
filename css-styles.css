@@ -1,25 +1,22 @@
 body{
     background-color: hsl(210, 46%, 95%);
-    font-size: 0.8125rem;
+    font-size: 81.25%;
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
-
-.daniel{
-    background-color: hsl(263, 55%, 52%);
-    background-image:url(images/bg-pattern-quotation.svg);
-    background-repeat: no-repeat;
-    background-position-x:22rem;
-    width: 33.125rem;
-    border-radius: 2%;
+.main-box{
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18% 18% 18%;
+    grid-template-rows: 19rem 19rem;
     min-height: 100px;
     overflow: hidden;
-    display: inline-block;
-    position:absolute;
-    top:6.25rem;
-    left:9.375rem;
-    
+    grid-auto-rows: 200px;
+    column-gap: 1rem;
+    row-gap: 0.1rem;
+    margin-top:5%;
+ 
     
 }
+
 img{
     float:left;
     border-radius: 100%;
@@ -28,10 +25,7 @@ img{
     margin: 0.3125rem 1.25rem 1.25rem 1.25rem;
     border-style: solid;
     height: 1.875rem;
-    width: 1.875rem;
-    
-
-    
+    width: 1.875rem;      
 }
 .name-box{
     padding-top: 0.3125rem;
@@ -57,17 +51,99 @@ img{
     opacity: 70%;
     padding: 0.4375rem 1.5625rem 1.125rem 1.5625rem;    
 }
+
+.daniel{
+    background-color: hsl(263, 55%, 52%);
+    background-image:url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x:22rem;
+    width: 95%;
+    border-radius: 2%;
+    min-height: 100px;
+    height: 95%;
+    display: inline-block;
+    grid-column: 2/4;
+    grid-row: 1;
+}
+.daniel-img{
+    float:left;
+    border-radius: 100%;
+    border-color: hsl(0, 0%, 81%);
+    border-width: 95%;
+    margin: 1% 4% 3% 4%;
+    border-style: solid;
+    height: 95%;
+    width: 6%;
+    
+}  
+.name-box-daniel{
+    padding-top: 2%;
+}
+.name-daniel{
+    margin-bottom: 0.5%;
+    font-size: 0.8124rem;
+    color: hsl(0, 0%, 81%);
+}
+.verified-daniel{
+    margin-top: 0.5%;
+    opacity: 50%;
+    color: hsl(0, 0%, 81%);
+}
+.head-daniel{
+    font-size: 1.25rem;
+    color: hsl(0, 0%, 100%);
+    padding: 1% 2% 0.5% 5%;
+}
+.body-daniel{
+    color:hsl(0, 0%, 100%);
+    opacity: 70%;
+    padding: 1% 5% 3% 5%;    
+}
+
 .jonathan{
     background-color: hsl(217, 19%, 35%);
     min-height: 100px;
     overflow: hidden;
     border-radius: 2%;
     display:inline-block;
-    width:15.625rem;
-    position:absolute;
-    top:6.25rem;
-    left:44.375rem;
+    width:95%;
+    height: 95%;
+    grid-column: 4;
+    grid-row:1;    
+}
+.jon-img{
+    float:left;
+    border-radius: 100%;
+    border-color: hsl(0, 0%, 81%);
+    border-width: 95%;
+    margin: 1% 5% 4% 4%;
+    border-style: solid;
+    height: 95%;
+    width: 12%;
     
+}  
+.name-box-jon{
+    padding-top: 2%;
+}
+.name-jon{
+    margin-bottom: 1%;
+    font-size: 0.8124rem;
+    color: hsl(0, 0%, 81%);
+}
+.verified-jon{
+    margin-top: 0.5%;
+    opacity: 50%;
+    color: hsl(0, 0%, 81%);
+}
+.head-jon{
+    font-size: 1.25rem;
+    color: hsl(0, 0%, 100%);
+    padding: 1% 4% 0.5% 7%;
+}
+.body-jon{
+    color:hsl(0, 0%, 100%);
+    opacity: 70%;
+    padding: 1% 7% 3% 7%;    
 }
 .jeanette{
    background-color: hsl(0, 0%, 100%);
@@ -75,10 +151,13 @@ img{
    overflow: hidden;
    border-radius: 2%;
    display:inline-block;
-   width:14.375rem;
-   position: absolute;
-   top:25.625rem;
-   left:9.375rem;
+   width:95%;
+   grid-column: 2;
+   grid-row:2;
+   height:95%;
+
+   
+  
 }
 .patrick{
     background-color:  hsl(219, 29%, 14%);
@@ -86,53 +165,54 @@ img{
    overflow: hidden;
    border-radius: 2%;
    display:inline-block;
-   width:34.375rem;
-   position: absolute;
-   top:25.625rem;
-   left:25.625rem;
-}
+   width:200%;
+   height: 95%;
+   grid-column: 3;
+   grid-row:2;
+
+  
+}  
 .kira{
     background-color: hsl(0, 0%, 100%);
     border-radius: 2%;
     display:inline-block;
-    width:13.75rem;
-    position:absolute;
-    top:6.25rem;
-    right:20rem;
-    height: 35.9375rem;
+    width:80%;
+    height:195%;
+    grid-column: 5;
+    grid-row:1/2;
+    
 }   
 .ack{
-    margin-left:50%;
+    margin:auto;
     display: block;
     text-align: center;
+    grid-column:3;
+    grid-row:3;
     
 
 }
 
-@media (max-width:1080px) 
+@media (max-width:1440px) 
 {
     body{
         background-color: hsl(210, 46%, 95%);
-        font-size: 0.8125rem;
+        font-size: 81.25%;
         font-family: 'Barlow Semi Condensed', sans-serif;
     }
-    
-    .daniel{
-        background-color: hsl(263, 55%, 52%);
-        background-image:url(images/bg-pattern-quotation.svg);
-        background-repeat: no-repeat;
-        background-position-x:22rem;
-        width: 19.125rem;
-        border-radius: 2%;
+    .main-box{
+        display: grid;
+        grid-template-columns: 5%;
+        grid-template-rows: 10rem 10rem 10rem 10rem 10rem 10rem 10rem 10rem 10rem 10rem 10rem 10rem 10rem 10rem 10rem 10rem 10rem;
         min-height: 100px;
         overflow: hidden;
-        display: block;
-        position:absolute;
-        top:6.25rem;
-        left:27%;
-        margin:auto;
+        grid-auto-rows: 100px;
+        column-gap: 1rem;
+        row-gap: 1rem;
+        margin-top:5%;
+     
         
     }
+    
     img{
         float:left;
         border-radius: 100%;
@@ -141,10 +221,7 @@ img{
         margin: 0.3125rem 1.25rem 1.25rem 1.25rem;
         border-style: solid;
         height: 1.875rem;
-        width: 1.875rem;
-        
-    
-        
+        width: 1.875rem;      
     }
     .name-box{
         padding-top: 0.3125rem;
@@ -170,65 +247,145 @@ img{
         opacity: 70%;
         padding: 0.4375rem 1.5625rem 1.125rem 1.5625rem;    
     }
+    
+    .daniel{
+        background-color: hsl(263, 55%, 52%);
+        background-image:url(images/bg-pattern-quotation.svg);
+        background-repeat: no-repeat;
+        background-position-x:22rem;
+        width: 95%;
+        border-radius: 2%;
+        min-height: 100px;
+        height: 110%;
+        display: inline-block;
+        grid-column: 2;
+        grid-row: 1/3;
+    }
+    .daniel-img{
+        float:left;
+        border-radius: 100%;
+        border-color: hsl(0, 0%, 81%);
+        border-width: 95%;
+        margin: 1% 4% 3% 4%;
+        border-style: solid;
+        height: 95%;
+        width: 6%;
+        
+    }  
+    .name-box-daniel{
+        padding-top: 2%;
+    }
+    .name-daniel{
+        margin-bottom: 0.5%;
+        font-size: 0.8124rem;
+        color: hsl(0, 0%, 81%);
+    }
+    .verified-daniel{
+        margin-top: 0.5%;
+        opacity: 50%;
+        color: hsl(0, 0%, 81%);
+    }
+    .head-daniel{
+        font-size: 1.25rem;
+        color: hsl(0, 0%, 100%);
+        padding: 1% 2% 0.5% 5%;
+    }
+    .body-daniel{
+        color:hsl(0, 0%, 100%);
+        opacity: 70%;
+        padding: 1% 5% 3% 5%;    
+    }
+    
     .jonathan{
         background-color: hsl(217, 19%, 35%);
         min-height: 100px;
         overflow: hidden;
         border-radius: 2%;
-        display: block;
-        width: 19.125rem;
-        position:absolute;
-        top:35rem;
-        left:27%;
-        margin:auto;
+        display:inline-block;
+        width:95%;
+        height: 140%;
+        grid-column: 2;
+        grid-row:4;    
+    }
+    .jon-img{
+        float:left;
+        border-radius: 100%;
+        border-color: hsl(0, 0%, 81%);
+        border-width: 95%;
+        margin: 1% 5% 4% 4%;
+        border-style: solid;
+        height: 95%;
+        width: 12%;
         
+    }  
+    .name-box-jon{
+        padding-top: 2%;
+    }
+    .name-jon{
+        margin-bottom: 1%;
+        font-size: 0.8124rem;
+        color: hsl(0, 0%, 81%);
+    }
+    .verified-jon{
+        margin-top: 0.5%;
+        opacity: 50%;
+        color: hsl(0, 0%, 81%);
+    }
+    .head-jon{
+        font-size: 1.25rem;
+        color: hsl(0, 0%, 100%);
+        padding: 1% 4% 0.5% 7%;
+    }
+    .body-jon{
+        color:hsl(0, 0%, 100%);
+        opacity: 70%;
+        padding: 1% 7% 3% 7%;    
     }
     .jeanette{
        background-color: hsl(0, 0%, 100%);
        min-height: 100px;
        overflow: hidden;
        border-radius: 2%;
-       display: block;
-       width: 19.125rem;
-       position: absolute;
-       top:52rem;
-       left:27%;
-       margin:auto;
+       display:inline-block;
+       width:95%;
+       grid-column: 2;
+       grid-row:6;
+       height:135%;
+    
+       
+      
     }
     .patrick{
         background-color:  hsl(219, 29%, 14%);
         min-height: 100px;
        overflow: hidden;
        border-radius: 2%;
-       display: block;
-       width: 19.125rem;
-       position: absolute;
-       top:68rem;
-       left:27%;
-       margin:auto;
-    }
+       display:inline-block;
+       width:95%;
+       height: 230%;
+       grid-column: 2;
+       grid-row:8;
+    
+      
+    }  
     .kira{
         background-color: hsl(0, 0%, 100%);
         border-radius: 2%;
         display:inline-block;
-        width: 19.125rem;
-        display: block;
-        top:93rem;
-        right:20rem;
-        left:27%;
-        height: 28.9375rem;
-        margin:auto;
+        width:95%;
+        height:300%;
+        grid-column: 2;
+        grid-row:11/12;
         
-    } 
+    }   
     .ack{
         margin:auto;
         display: block;
         text-align: center;
-        
-       
-    
+        grid-column:2;
+        grid-row:14;
     }
+}    
     
         
     
-}
