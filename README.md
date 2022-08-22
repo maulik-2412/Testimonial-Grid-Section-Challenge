@@ -40,5 +40,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Maulik Tyagi](https://www.your-site.com)
+- Website - [Maulik Tyagi](https://maulik-2412.github.io/Website/)
 - Frontend Mentor - [@maulik-2412](https://www.frontendmentor.io/profile/maulik-2412)
